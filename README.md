@@ -20,7 +20,7 @@ Basic understanding of key-value stores and in-memory databases.
 
 - Installation
 Clone the Repository:
-git clone https://github.com/your-username/your-repo.git
+(https://github.com/redis/redis)
 
 - Contributing
 Contributions to this repository are welcome! If you have any code samples, tutorials, or projects related to Redis that you'd like to share, feel free to submit a pull request.
