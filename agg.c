@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to connect to Redis
+// connect to Redis
 redisContext* connect_to_redis(const char* hostname, int port) {
     redisContext* context = redisConnect(hostname, port);
     if (context == NULL || context->err) {
@@ -17,7 +17,7 @@ redisContext* connect_to_redis(const char* hostname, int port) {
     return context;
 }
 
-// Function to populate Redis with movie data
+// populate Redis with movie data
 void populate_redis(redisContext* context) {
     redisReply* reply;
 
